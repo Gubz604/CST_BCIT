@@ -46,7 +46,7 @@ public class Word implements Comparable<Word>{
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj) return true;
-	    if (obj == null || getClass() != obj.getClass()) return false;
+		if (obj == null || getClass() != obj.getClass()) return false;
 	    
 	    Word other = (Word) obj;
 	    

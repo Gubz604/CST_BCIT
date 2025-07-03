@@ -50,7 +50,8 @@ public class BookStore
                 novelName = scanLine.next();
                 novelAuthor = scanLine.next();
                 novelYearPublished = scanLine.nextInt();
-                novelList.add(new Novel(novelName, novelAuthor, novelYearPublished));
+                novelList.add(
+                    new Novel(novelName, novelAuthor, novelYearPublished));
             }
         }
 
@@ -170,7 +171,8 @@ public class BookStore
     }
 
     /**
-     * Counts how many books contain a specified word in the title (case-insensitive).
+     * Counts how many books contain a specified word in the title
+     * (case-insensitive).
      *
      * @param word the word to search for in the titles
      * @return the number of titles containing the word
